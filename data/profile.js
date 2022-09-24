@@ -88,8 +88,8 @@ const profileData = {
       title: `UI Engineer 1`,
       date: "Jun 2021 - Present",
       details: [
-        `Currently working on the migration of legacy projects from AngularJS codebase to ReactJS codebase with a whole new design by
-        developing React based UI component library and utilities, which are being used across different projects in Pricing and Promotion POD.`,
+        `As a part of Pricing and Promotion Team, currently working on the migration of legacy projects from AngularJS codebase to ReactJS codebase with a whole new design by
+        developing React based UI component library and utilities, which are being used across different projects.`,
         `Other responsibilities involve adding new features, and patching/fixing bugs on any existing features as well as oncall issues.
         `
       ]
