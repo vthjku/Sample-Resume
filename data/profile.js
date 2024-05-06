@@ -1,7 +1,7 @@
 const profileData = {
   title: "Resume",
   name: "Vipin Yadav",
-  sub_title: "Frontend/UI Engineer",
+  sub_title: "Senior Software Engineer (Frontend)",
   logoURL: "assets/images/dp.jpg",
   about: {
     intro: `I am an innovative and passionate developer with a primary interest in <strong>JavaScript</strong>
@@ -14,32 +14,13 @@ const profileData = {
     }
   },
   links: [
-    { title: "Codepen", src: "https://codepen.io/imvpn22" },
+    { title: "LinkedIn", src: "https://www.linkedin.com/in/imvpn22" },
     { title: "Github", src: "https://github.com/imvpn22" },
-    { title: "LinkedIn", src: "https://www.linkedin.com/in/imvpn22" }
+    { title: "Codepen", src: "https://codepen.io/imvpn22" },
     // { title: 'Twitter', src: 'https://twitter.com/imvpn22' }
     // { title: 'HackerEarth', src: 'https://www.hackerearth.com/@imvpn22' },
   ],
-  education: [
-    {
-      alma: "FET, GKV, Haridwar",
-      duration: "2014 - 2018",
-      std: "B.Tech. (Computer Science & Engineering)",
-      score: "71.00%"
-    },
-    {
-      alma: "Jwala Devi SVMIC, Prayagraj",
-      duration: "2011 - 2013",
-      std: "Class XI-XII (PCM)",
-      score: "89.80%"
-    },
-    {
-      alma: "Jwala Devi SVMIC, Prayagraj",
-      duration: "2011 - 2013",
-      std: "Class IX - X (PCM)",
-      score: "73.33%"
-    }
-  ],
+
   skills: [
     {
       category: "Programming Languages",
@@ -49,6 +30,7 @@ const profileData = {
       category: "Frameworks / Libraries",
       topics: [
         "ReactJS",
+        "React-Native",
         "Redux",
         "NodeJS",
         "Express",
@@ -57,39 +39,40 @@ const profileData = {
         "Bootstrap",
         "AntDesign"
       ]
-    }
-  ],
-  projects: [
-    {
-      title: "Restaurant Review",
-      duration: "June - Nov 2018",
-      link: "https://github.com/imvpn22/restaurant-review-pwa",
-      desc: `A web app to list, view and add reviews of restaurants.
-      The app includes filtering based on location, cuisine, and rating.
-      This project was a part of Udacity's <strong>Mobile Web Specialist</strong> nano degree program.
-      Developed using <strong>HTML5</strong>, <strong>CSS3</strong> and <strong>JavaScript</strong>
-      with Progressive Web-Application standards including full-responsiveness,
-      offline support, and improved accessibility.`
     },
     {
-      title: "WhiteBoard",
-      duration: "Jun - Aug 2017",
-      link: "https://github.com/imvpn22/whiteboard",
-      desc: `A simple <strong>web-app for collaborative brainstorming sessions</strong>.
-      The app includes a real-time messaging and sketching platform for collaboration with Peers.
-      It also has features to create groups(teams) and add/remove members.
-      Developed using <strong>Node.js-Express</strong> with server-side-templating (EJS),
-      <strong>CSS</strong>, <strong>JavaScript</strong> and <strong>Socket.io</strong>.`
+      category: "Tools",
+      topics: [
+        "AWS",
+        "Jenkins",
+        "Android Studio",
+        "XCode"
+      ]
     }
   ],
   experiences: [
     {
+      organization: "Gameskraft",
+      title: "Senior Software Engineer",
+      date: "Dec 2022 - Present",
+      details: [
+        `As part of RummyCulture team, I am primarily working on developing features end to end
+        from understanding requirements to deployment in production. Apart from that I also fix
+        live issues and do active monitoring of the systems for anomalies. Tech-stack includes
+        React-Native, Redux, NodeJS-Express, Jenkins, AWS, etc.`,
+        `Took initiative for developing a React-Native based custom re-usable component, util,
+        hoc, hooks, animation etc library to be used in multiple projects and repos for our
+        requirement, contributed with product and design team to understand the curent use-cases
+        and future scop. Implemented code quality practice by enforcing ESLint rules, best practice coding patterns.`
+      ]
+    },
+    {
       organization: "Flipkart Internet Pvt Ltd",
       title: `UI Engineer 1`,
-      date: "Jun 2021 - Present",
+      date: "Jun 2021 - Nov 2022",
       details: [
-        `As a part of the Pricing and Promotion Team, I am currently working on the migration of legacy projects from the AngularJS codebase 
-        to <strong>React-Redux</strong> codebase with a whole new design by developing a React-based UI component library and utilities, 
+        `As a part of the Pricing and Promotion Team, I am currently working on the migration of legacy projects from the AngularJS codebase
+        to <strong>React-Redux</strong> codebase with a whole new design by developing a React-based UI component library and utilities,
         which are being used across different projects.`,
         `Other responsibilities involve adding new features, and patching/fixing bugs on existing features as well as on-call issues.`
       ]
@@ -144,6 +127,49 @@ const profileData = {
         towards <strong>using auth and data APIs</strong> offered by the platform, deploying the app,
         testing and reporting the bugs in it.`
       ]
+    }
+  ],
+  projects: [
+    {
+      title: "Restaurant Review",
+      duration: "Jun - Nov 2018",
+      link: "https://github.com/imvpn22/restaurant-review-pwa",
+      desc: `A web app to list, view and add reviews of restaurants.
+      The app includes filtering based on location, cuisine, and rating.
+      This project was a part of Udacity's <strong>Mobile Web Specialist</strong> nano degree program.
+      Developed using <strong>HTML5</strong>, <strong>CSS3</strong> and <strong>JavaScript</strong>
+      with Progressive Web-Application standards including full-responsiveness,
+      offline support, and improved accessibility.`
+    },
+    {
+      title: "WhiteBoard",
+      duration: "Jun - Aug 2017",
+      link: "https://github.com/imvpn22/whiteboard",
+      desc: `A simple <strong>web-app for collaborative brainstorming sessions</strong>.
+      The app includes a real-time messaging and sketching platform for collaboration with Peers.
+      It also has features to create groups(teams) and add/remove members.
+      Developed using <strong>Node.js-Express</strong> with server-side-templating (EJS),
+      <strong>CSS</strong>, <strong>JavaScript</strong> and <strong>Socket.io</strong>.`
+    }
+  ],
+  education: [
+    {
+      alma: "FET, GKV, Haridwar",
+      duration: "2014 - 2018",
+      std: "B.Tech. (Computer Science & Engineering)",
+      score: "71.00%"
+    },
+    {
+      alma: "Jwala Devi SVMIC, Prayagraj",
+      duration: "2011 - 2013",
+      std: "Class XI-XII (PCM)",
+      score: "89.80%"
+    },
+    {
+      alma: "Jwala Devi SVMIC, Prayagraj",
+      duration: "2009 - 2011",
+      std: "Class IX - X (PCM)",
+      score: "73.33%"
     }
   ],
   certifications: [
