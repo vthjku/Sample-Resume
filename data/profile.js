@@ -63,7 +63,7 @@ const profileData = {
         `Took initiative for developing a React-Native based custom re-usable component, util,
         hoc, hooks, animation etc library to be used in multiple projects and repos for our
         requirement, contributed with product and design team to understand the curent use-cases
-        and future scop. Implemented code quality practice by enforcing ESLint rules, best practice coding patterns.`
+        and future scope. Implemented code quality practice by enforcing ESLint rules, best practice coding patterns.`
       ]
     },
     {
@@ -71,7 +71,7 @@ const profileData = {
       title: `UI Engineer 1`,
       date: "Jun 2021 - Nov 2022",
       details: [
-        `As a part of the Pricing and Promotion Team, I am currently working on the migration of legacy projects from the AngularJS codebase
+        `As a part of the Pricing and Promotion Team, I was working on the migration of legacy projects from the AngularJS codebase
         to <strong>React-Redux</strong> codebase with a whole new design by developing a React-based UI component library and utilities,
         which are being used across different projects.`,
         `Other responsibilities involve adding new features, and patching/fixing bugs on existing features as well as on-call issues.`
