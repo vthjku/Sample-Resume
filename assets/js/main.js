@@ -17,23 +17,30 @@ const setTitle = (data) => {
 const setLinks = (links) => {
   const linksList = document.querySelector("#linksList");
   links.forEach((link) => {
-    const li = document.createElement("li");
-    const title = document.createElement("div");
-    title.className = "link-title";
-    title.innerHTML = link.title;
-    li.appendChild(title);
+    const linkItem = document.createElement("div");
+    linkItem.className = "contact-item";
+    const title = document.createElement("span");
+    title.className = "contact-logo";
+    // title.innerHTML = link.title;
+
+    const icon = document.createElement("i");
+    icon.className = link.iconClass;
+    // title.innerHTML = "";
+    title.appendChild(icon);
+
+    linkItem.appendChild(title);
 
     const linkSrc = document.createElement("div");
-    linkSrc.className = "link-src";
+    linkSrc.className = "link-src contact-info";
     const a = document.createElement("a");
     a.href = link.src;
     a.target = "_blank";
     a.rel = "noopener noreferrer";
-    a.innerHTML = link.src;
+    a.innerText = link.title;
     linkSrc.appendChild(a);
-    li.appendChild(linkSrc);
+    linkItem.appendChild(linkSrc);
 
-    linksList.appendChild(li);
+    linksList.appendChild(linkItem);
   });
 };
 

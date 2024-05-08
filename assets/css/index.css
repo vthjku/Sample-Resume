@@ -65,7 +65,6 @@ strong {
 }
 
 .contact-section {
-  padding-bottom: 0.5rem;
   display: flex;
   flex-wrap: wrap;
 }
@@ -144,6 +143,7 @@ strong {
 .cat-list-body li {
   padding: 0.4rem 0;
   padding-left: 0.6rem;
+  text-align: justify;
 }
 
 /* Education */
