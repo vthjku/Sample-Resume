@@ -46,22 +46,21 @@ const profileData = {
       title: "Senior Software Engineer",
       date: "Dec 2022 - Present",
       details: [
-        `As a pivotal member of the RummyCulture App team, I made a transition from web to mobile app development by mastering the <strong>React-Native</strong> tech stack.
-        In collaborative feature development, I hold end-to-end responsibilities, from understanding requirements to deploying the finished product.
-        This includes implementing pixel-perfect UI, ensuring smooth UX, conducting user testing, and running A/B experiments. By closely collaborating with cross-functional teams,
-        I ensure projects are delivered on time while gaining insights into current user needs and anticipating future requirements. My approach involves leveraging a comprehensive tech stack,
-        including <strong>React-Native, Redux, NodeJS-Express, Jenkins, Google Play Console, Firebase, Sntry, AWS</strong> etc.`,
-        `Contributed to the development of a React-Native-based custom <strong>reusable component library</strong>, integrating utilities, higher-order components (HOCs),
-        hooks, animations, and more, for use in numerous projects. Additionally, I prioritized code quality by enforcing <strong>ESLint</strong> custom rules and adhering to best-practice coding patterns.`,
-        `Implemented the <strong>FT/UX</strong> (First Time User Experience) flow for newly registered users, resulting in an enhancement of approximately 5% in day1 R2AC (Registration to Add Cash)
-        and day1 R2CG (Registration to Cash Game) metrics.`,
+        `As part of <strong>RummyCulture App</strong> team, I have played a significant role in developing features such as TDS deduction on withdrawal,
+        TDS summaries & certificates, and educating users on TDS through FT/UX flows and videos. Additionally, contributed to enhancing the Game Rejoin flow,
+        valid declaration suggestions on the scorecard, and implementing hygiene fixes and cleanups within the Withdrawal flow, User Referral Nudge,
+        Game join flow, and Game Bubble terminal state. Took on end-to-end responsibility, ensuring a <strong>pixel-perfect UI</strong>, and smooth UX, conducting user testing,
+        and running <strong>A/B experiments</strong>. Collaborated closely with cross-functional teams to ensure timely project delivery while gaining insights into
+        current user needs and anticipating future requirements. Additionally, prioritized code quality by enforcing ESLint custom rules and adhering
+        to best-practice coding patterns. Tech stack includes <strong>React-Native, Redux, NodeJS-Express, Jenkins, Google Play Console, Firebase, Sentry, AWS,</strong> etc.`,
+        `Implemented the <strong>FT/UX</strong> (First Time User Experience) flow for newly registered users, resulting in an enhancement of <strong>approximately 5%</strong> in
+        day1 R2AC (Registration to Add Cash) and day1 R2CG (Registration to Cash Game) metrics.`,
         `Integrated <strong>in-house SDKs</strong>, such as the help center, provided self-help features such as guidance through various app flows like add-cash, withdrawal, and KYC,
         along with a callback scheduling option for users. This resulted in a decrease in the volume of customer calls.`,
-        `Played a significant role in developing features related to <strong>TDS</strong> deduction on withdrawal, generating TDS summaries and certificates, TDS refund and educating users on TDS through FT/UX flows and videos.`,
-        `Implemented significant  <strong>hygiene fixes and cleanups</strong> within the Withdrawal flow, Game join flow, and User Referral Nudge, contributing to the success of core flows.
-         Additionally, implemented features to enhance the user game rejoin flow and the game bubble terminal state, including better declaration suggestions on the scorecard.`,
-        `Proficient in swiftly maintaining vigilant system monitoring using tools like <strong>Sentry</strong> and <strong>Firebase Crashlytics</strong>, I addressed live issues such as App-crashes, JS-crashes, and ANRs (App not responding),
-        ensuring optimal performance. Additionally, I have mentored juniors, guiding them to achieve solutions for requirements through continuous code review sessions.`,
+        `Contributed to the development of a React-Native based custom <strong>reusable component library</strong>, integrating utilities, higher-order components (HOCs),
+        hooks, animations, and more, for use in numerous projects. Addressed live issues such as App crashes, JS crashes, and ANRs (App Not Responding),
+        using monitoring tools like Sentry and Firebase Crashlytics, ensuring bug-free code and optimal performance. Additionally, I have mentored juniors,
+        guiding them to achieve solutions for requirements through continuous code review sessions.`,
       ],
     },
     {
