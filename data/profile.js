@@ -42,7 +42,7 @@ const profileData = {
     },
     {
       category: "Tools",
-      topics: ["AWS", "Jenkins", "Android Studio", "XCode"],
+      topics: ["AWS", "Jenkins", "Android SDK", "XCode"],
     },
   ],
   experiences: [
