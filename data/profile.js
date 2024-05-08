@@ -22,28 +22,23 @@ const profileData = {
   ],
 
   skills: [
-    {
-      category: "Programming Languages",
-      topics: ["TypeScript", "JavaScript"],
-    },
-    {
-      category: "Frameworks / Libraries",
-      topics: [
-        "ReactJS",
-        "React-Native",
-        "Redux",
-        "NodeJS",
-        "Express",
-        "NextJS",
-        "Angular",
-        "Bootstrap",
-        "AntDesign",
-      ],
-    },
-    {
-      category: "Tools",
-      topics: ["AWS", "Jenkins", "Android SDK", "XCode"],
-    },
+    "HTML5",
+    "CSS3",
+    "TypeScript",
+    "JavaScript",
+    "ReactJS",
+    "React-Native",
+    "Redux",
+    "NodeJS",
+    "Express",
+    "NextJS",
+    "Angular",
+    "Bootstrap",
+    "AntDesign",
+    "AWS",
+    "Jenkins",
+    "Android SDK",
+    "XCode",
   ],
   experiences: [
     {

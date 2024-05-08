@@ -9,6 +9,7 @@ html {
 
 * {
   box-sizing: border-box;
+  /* border: solid 1px red; */
 }
 
 /* Links */
@@ -37,6 +38,10 @@ strong {
 .header {
   text-align: center;
   margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .profile-logo {
@@ -61,13 +66,15 @@ strong {
 
 .contact-section {
   padding-bottom: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .contact-item {
   display: flex;
   align-items: center;
   color: #3173bb;
-  padding: 0.4rem 0;
+  padding: 0.4rem 0.6rem;
 }
 
 .contact-logo {
@@ -75,11 +82,10 @@ strong {
 }
 
 .contact-info {
-  padding-left: 1rem;
+  padding-left: 0.4rem;
 }
 
 .info-section {
-  padding: 1rem 0 0 0;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -162,7 +168,6 @@ strong {
 }
 
 .edu-class-data {
-  /* clear: right; */
   margin-top: 5px;
 }
 
@@ -185,7 +190,6 @@ strong {
 }
 
 .project-desc {
-  /* margin-top: 8px; */
   color: #444;
   padding: 4px 0 4px 16px;
   border-left: 2px solid beige;
@@ -198,8 +202,6 @@ strong {
 }
 
 .cat-skill-type {
-  /* width: 100%; */
-  /* min-width: 13.5rem; */
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 1px;
@@ -213,13 +215,7 @@ strong {
 .cat-skill-body {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 0 0 5px 40px;
-}
-
-.cat-skill-body-gen {
-  display: flex;
-  flex-wrap: wrap;
+  padding: 5px 0px;
 }
 
 .skill {
@@ -235,8 +231,6 @@ strong {
   background-color: #3173bb;
   color: #fff;
   border-radius: 3rem;
-
-  /* font-weight: 600; */
   font-size: 0.9rem;
 }
 
@@ -290,7 +284,6 @@ strong {
   list-style-type: disc !important;
   color: #444;
   padding: 4px 0 4px 16px;
-  /* font-style: italic; */
 }
 
 .expDet > li {
@@ -305,8 +298,6 @@ strong {
   }
 
   .header-title {
-    /* flex-wrap: wrap; */
-    /* justify-content: center; */
     text-align: center;
   }
 
@@ -315,7 +306,6 @@ strong {
   }
 
   .header-sub-title {
-    /* justify-content: center; */
     text-align: center;
   }
 
@@ -359,7 +349,6 @@ strong {
   }
 
   .contact-item {
-    /* width: 100%; */
     display: block;
     cursor: pointer;
   }
@@ -382,7 +371,6 @@ strong {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    /* justify-content: space-between; */
   }
 
   .project-link a {
