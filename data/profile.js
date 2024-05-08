@@ -56,6 +56,8 @@ const profileData = {
       title: "Senior Software Engineer",
       date: "Dec 2022 - Present",
       details: [
+        `Took initiative in learning <strong>React-Native</strong>. Made a smooth transition from web
+        development to mobile app development and went to build various features under minimal supervision.`,
         `As part of RummyCulture team, I am primarily working on developing features end to end
         from understanding requirements to deployment in production. Apart from that I also fix
         live issues and do active monitoring of the systems for anomalies. Tech-stack includes
