@@ -111,17 +111,20 @@ strong {
   display: flex;
   align-items: center;
   border-bottom: 1px solid #f0f0f0;
+  /* justify-content: center; */
 }
 
 .cat-indicator {
   color: #3173bb;
+  width: 1.6rem;
+  text-align: center;
 }
 
 .cat-title {
   text-transform: uppercase;
   letter-spacing: 3px;
   vertical-align: text-bottom;
-  padding-left: 1rem;
+  margin-left: 0.4rem;
   color: #666;
 }
 
@@ -134,13 +137,13 @@ strong {
 .cat-list-body {
   padding-bottom: 1rem;
 }
-.cat-list-body ul {
-  padding-left: 18px;
+.cat-list {
+  padding-left: 2rem;
   margin: 0;
   list-style-type: circle;
 }
 
-.cat-list-body li {
+.cat-list-item {
   padding: 0.4rem 0;
   padding-left: 0.6rem;
   text-align: justify;
@@ -191,8 +194,8 @@ strong {
 
 .project-desc {
   color: #444;
-  padding: 4px 0 4px 16px;
-  border-left: 2px solid beige;
+  text-align: justify;
+  padding-bottom: 0.4rem;
 }
 
 /* Skills */
@@ -287,8 +290,9 @@ strong {
 }
 
 .expDet > li {
-  padding: 0.3rem 0 !important;
+  padding-bottom: 0.4rem !important;
   padding-left: 0.3rem !important;
+  text-align: justify;
 }
 
 /* Media wuery for mobile view */
@@ -348,8 +352,12 @@ strong {
     margin-left: 0;
   }
 
+  .contact-section {
+    justify-content: center;
+  }
+
   .contact-item {
-    display: block;
+    display: inline-flex;
     cursor: pointer;
   }
 

@@ -10,8 +10,6 @@ const setTitle = (data) => {
     .querySelector("#contactEmail")
     .setAttribute("href", `mailto:${data.about.contact.email}`);
   document.querySelector("#contactPhone").innerHTML = data.about.contact.phone;
-  /* document.querySelector('#contactAddress').innerHTML =
-    data.about.contact.address; */
 };
 
 const setLinks = (links) => {
@@ -21,24 +19,20 @@ const setLinks = (links) => {
     linkItem.className = "contact-item";
     const title = document.createElement("span");
     title.className = "contact-logo";
-    // title.innerHTML = link.title;
 
     const icon = document.createElement("i");
     icon.className = link.iconClass;
-    // title.innerHTML = "";
     title.appendChild(icon);
 
     linkItem.appendChild(title);
 
-    const linkSrc = document.createElement("div");
-    linkSrc.className = "link-src contact-info";
     const a = document.createElement("a");
+    a.className = "link-src contact-info";
     a.href = link.src;
     a.target = "_blank";
     a.rel = "noopener noreferrer";
     a.innerText = link.title;
-    linkSrc.appendChild(a);
-    linkItem.appendChild(linkSrc);
+    linkItem.appendChild(a);
 
     linksList.appendChild(linkItem);
   });

@@ -29,10 +29,7 @@ const profileData = {
       src: "https://codepen.io/imvpn22",
       iconClass: "fa-brands fa-codepen",
     },
-    // { title: 'Twitter', src: 'https://twitter.com/imvpn22' }
-    // { title: 'HackerEarth', src: 'https://www.hackerearth.com/@imvpn22' },
   ],
-
   skills: [
     "HTML5",
     "CSS3",
@@ -54,21 +51,20 @@ const profileData = {
       title: "Senior Software Engineer",
       date: "Dec 2022 - Present",
       details: [
-        `As part of <strong>RummyCulture App</strong> team, I have played a significant role in developing features such as TDS deduction on withdrawal,
-        TDS summaries & certificates, and educating users on TDS through FT/UX flows and videos. Additionally, contributed to enhancing the Game Rejoin flow,
-        valid declaration suggestions on the scorecard, and implementing hygiene fixes and cleanups within the Withdrawal flow, User Referral Nudge,
-        Game join flow, and Game Bubble terminal state. Took on end-to-end responsibility, ensuring a <strong>pixel-perfect UI</strong>, and smooth UX, conducting user testing,
-        and running <strong>A/B experiments</strong>. Collaborated closely with cross-functional teams to ensure timely project delivery while gaining insights into
-        current user needs and anticipating future requirements. Additionally, prioritized code quality by enforcing ESLint custom rules and adhering
-        to best-practice coding patterns. Tech stack includes <strong>React-Native, Redux, NodeJS-Express, Jenkins, Google Play Console, Firebase, Sentry, AWS,</strong> etc.`,
+        `As part of <strong>RummyCulture App</strong> team, I have played a significant role in developing features such as TDS on withdrawal,
+        game join & re-join flow, better declaration suggestions on the scorecard, hygiene fixes in withdrawal flow, user referral nudge,
+        and game bubble terminal states. Took end-to-end responsibility, ensuring a <strong>pixel-perfect UI</strong>, smooth UX, conducting user testing,
+        running <strong>A/B experiments</strong> and timely project delivery. Additionally, prioritized code quality and best-practice coding patterns.
+        Tech stack includes <strong>React-Native, Redux, NodeJS-Express, Jenkins and AWS</strong>.`,
         `Implemented the <strong>FT/UX</strong> (First Time User Experience) flow for newly registered users, resulting in an enhancement of <strong>approximately 5%</strong> in
         day1 R2AC (Registration to Add Cash) and day1 R2CG (Registration to Cash Game) metrics.`,
-        `Integrated <strong>in-house SDKs</strong>, such as the help center, provided self-help features such as guidance through various app flows like add-cash, withdrawal, and KYC,
-        along with a callback scheduling option for users. This resulted in a decrease in the volume of customer calls.`,
-        `Contributed to the development of a React-Native based custom <strong>reusable component library</strong>, integrating utilities, higher-order components (HOCs),
-        hooks, animations, and more, for use in numerous projects. Addressed live issues such as App crashes, JS crashes, and ANRs (App Not Responding),
+        `Integrated <strong>in-house help center SDKs</strong>, provided self-help features such as guidance through app core flows
+        along with a callback scheduling option for users which resulted in a decrease in the volume of customer calls.`,
+        `Contributed to the development of a React-Native based custom <strong>UI library</strong> with reusable component, utilities, higher-order components,
+        hooks, animations, for use in various projects.`,
+        `Addressed live issues such as App crashes, JS crashes, and ANRs (App Not Responding),
         using monitoring tools like Sentry and Firebase Crashlytics, ensuring bug-free code and optimal performance. Additionally, I have mentored juniors,
-        guiding them to achieve solutions for requirements through continuous code review sessions.`,
+        guiding them to achieve solutions for requirements through continuous knowledge sharing sessions.`,
       ],
     },
     {
@@ -76,9 +72,9 @@ const profileData = {
       title: `UI Engineer 1`,
       date: "Jun 2021 - Nov 2022",
       details: [
-        `As a part of the Pricing and Promotion Team, I was working on the migration of legacy projects from the AngularJS codebase
+        `As a part of the Pricing and Promotion Team, I worked on the migration of legacy projects from the AngularJS codebase
         to <strong>React-Redux</strong> codebase with a whole new design by developing a React-based UI component library and utilities,
-        which are being used across different projects.`,
+        which are being used across various projects.`,
         `Other responsibilities involve adding new features, and patching/fixing bugs on existing features as well as on-call issues.`,
       ],
     },
