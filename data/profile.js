@@ -51,20 +51,14 @@ const profileData = {
       title: "Senior Software Engineer",
       date: "Dec 2022 - Present",
       details: [
-        `As part of <strong>RummyCulture App</strong> team, I have played a significant role in developing features such as TDS on withdrawal,
-        game join & re-join flow, better declaration suggestions on the scorecard, hygiene fixes in withdrawal flow, user referral nudge,
-        and game bubble terminal states. Took end-to-end responsibility, ensuring a <strong>pixel-perfect UI</strong>, smooth UX, conducting user testing,
-        running <strong>A/B experiments</strong> and timely project delivery. Additionally, prioritized code quality and best-practice coding patterns.
-        Tech stack includes <strong>React-Native, Redux, NodeJS-Express, Jenkins and AWS</strong>.`,
-        `Implemented the <strong>FT/UX</strong> (First Time User Experience) flow for newly registered users, resulting in an enhancement of <strong>approximately 5%</strong> in
-        day1 R2AC (Registration to Add Cash) and day1 R2CG (Registration to Cash Game) metrics.`,
-        `Integrated <strong>in-house help center SDKs</strong>, provided self-help features such as guidance through app core flows
-        along with a callback scheduling option for users which resulted in a decrease in the volume of customer calls.`,
-        `Contributed to the development of a React-Native based custom <strong>UI library</strong> with reusable component, utilities, higher-order components,
-        hooks, animations, for use in various projects.`,
-        `Addressed live issues such as App crashes, JS crashes, and ANRs (App Not Responding),
-        using monitoring tools like Sentry and Firebase Crashlytics, ensuring bug-free code and optimal performance. Additionally, I have mentored juniors,
-        guiding them to achieve solutions for requirements through continuous knowledge sharing sessions.`,
+        `As part of the <strong>RummyCulture App</strong> team, worked on the development of core features like <strong>TDS summary & certificate</strong>, <strong>game join & re-join flow</strong> improvements,
+        <strong>scorecard</strong>, <strong>withdrawal flow</strong>, <strong>user referral flow</strong>, and <strong>game bubble state</strong> optimizations.
+        I ensured end-to-end responsibility, focusing on <strong>pixel-perfect UI</strong>, smooth UX, user testing, <strong>A/B experiments</strong>, cross-platform compatibility,
+        and timely delivery.`,
+        `Implemented the <strong>FT/UX</strong> (First Time User Experience) flow, boosting day1 metrics of Registration to Add Cash and Registration to Cash Game by around <strong>5%</strong>.`,
+        `Integrated in-house <strong>help center SDK</strong>, offering self-help features like guided app core flows and callback scheduling for users, leading to a <strong>reduction in customer call volume</strong>.`,
+        `Initiated the standardization of a React-Native <strong>custom UI library</strong>, encompassing reusable components, utilities, higher-order components, hooks, and animations for versatile project needs.`,
+        `Addressed live issues such as App crashes, JS crashes, and ANRs using <strong>Sentry</strong> and <strong>Firebase Crashlytics</strong>. Mentored juniors through knowledge-sharing and code-review sessions to ensure bug-free code and optimal performance.`,
       ],
     },
     {
@@ -72,10 +66,8 @@ const profileData = {
       title: `UI Engineer 1`,
       date: "Jun 2021 - Nov 2022",
       details: [
-        `As a part of the Pricing and Promotion Team, I worked on the migration of legacy projects from the AngularJS codebase
-        to <strong>React-Redux</strong> codebase with a whole new design by developing a React-based UI component library and utilities,
-        which are being used across various projects.`,
-        `Other responsibilities involve adding new features, and patching/fixing bugs on existing features as well as on-call issues.`,
+        `As part of the <strong>Pricing and Promotion Team</strong>, worked on the migration of legacy projects from <strong>AngularJS to React-Redux</strong>, implementing a new design. I developed a React-based UI component library and utilities, now utilized across multiple projects.`,
+        `Other responsibilities include implementing new features, as well as patching and resolving bugs in existing features, while also addressing on-call issues promptly.`,
       ],
     },
     {
@@ -83,10 +75,8 @@ const profileData = {
       title: `Software Development Engineer 1`,
       date: "Apr 2020 - Jun 2021",
       details: [
-        `Worked on the development of internal tools to provide ease in the work of the operation team with a tech stack of
-        <strong>ReactJS</strong> with <strong>SCSS</strong> and <strong>Redux</strong> for frontend and <strong>NodeJS-Express</strong>
-        with protobuf for the backend.`,
-        `Created a customized Content Management System for MPL's website, to update content and images on the fly for different pages.`,
+        `Created feature-specific modules within the internal CRM to enhance team operations. Utilized <strong>ReactJS</strong> with <strong>SCSS</strong> and <strong>Redux</strong> for frontend development, alongside <strong>NodeJS-Express</strong> with protobuf for backend functionality.`,
+        `Developed a tailored <strong>Content Management System (CMS) for MPL's website</strong>, enabling seamless content and image updates across various pages in real-time.`,
       ],
     },
     {

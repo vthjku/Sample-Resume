@@ -149,25 +149,21 @@ const setExperience = (experiences) => {
     const expItem = document.createElement("div");
     expItem.className = "exp-item";
 
-    const expOrg = document.createElement("div");
+    const expOrg = document.createElement("span");
     expOrg.className = "exp-org";
     expOrg.innerHTML = exper.organization;
     expItem.appendChild(expOrg);
 
-    const expSub = document.createElement("div");
-
     const expTitle = document.createElement("span");
     expTitle.className = "exp-title";
-    expTitle.innerHTML = `${exper.title}, (${exper.date})`;
-    expSub.appendChild(expTitle);
+    expTitle.innerText = `  - ${exper.title}`;
 
-    // const expDura = document.createElement('span');
-    // expDura.className = 'ach-duration';
-    // expDura.innerHTML = exper.date;
-    // expSub.appendChild(expDura);
+    const expDura = document.createElement("span");
+    expDura.className = "exp-title";
+    expDura.innerText = `, (${exper.date})`;
 
-    expItem.appendChild(expSub);
-
+    expItem.appendChild(expTitle);
+    expItem.appendChild(expDura);
     expListItem.appendChild(expItem);
 
     if (exper.details) {

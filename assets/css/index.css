@@ -261,6 +261,11 @@ strong {
   justify-content: space-between;
 }
 
+.exp-item {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
 .exp-org {
   font-weight: 600;
   letter-spacing: 1px;
