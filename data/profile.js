@@ -4,9 +4,7 @@ const profileData = {
   sub_title: "Senior Software Engineer",
   logoURL: "assets/images/dp.jpg",
   about: {
-    intro: `I am an innovative and passionate developer with a primary interest in <strong>JavaScript</strong>
-     and its applications. Experienced in designing and implementing sophisticated UI/UX with
-      Progressive Web Application standards and application life-cycle management.`,
+    intro: `Senior Software Engineer with 5+ years of experience in frontend development. Expertise in HTML5, CSS3, JavaScript, TypeScript, ReactJS, React-Native, and Angular. Skilled in delivering high-performance, pixel-perfect UI and seamless UX. Proven track record in leading projects, migrating legacy systems, and developing reusable component libraries. Strong problem-solver with experience in A/B testing, cross-platform compatibility, and responsive design. Effective mentor and collaborator committed to continuous learning and innovation.`,
     contact: {
       email: "imvpn22@gmail.com",
       phone: "+91-9151413108",
