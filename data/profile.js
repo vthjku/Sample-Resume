@@ -29,19 +29,18 @@ const profileData = {
     },
   ],
   skills: [
-    "HTML5",
-    "CSS3",
-    "TypeScript",
-    "JavaScript",
-    "ReactJS",
-    "React-Native",
-    "Redux",
-    "NodeJS-Express",
-    "NextJS",
-    "Angular",
-    "Jenkins",
-    "Android SDK",
-    "XCode",
+    {
+      title: "Programming Languages",
+      value: "HTML5, CSS3, TypeScript, JavaScript",
+    },
+    {
+      title: "Frameworks/Library",
+      value: "ReactJS, React-Native, Redux, NodeJS-Express, NextJS, Angular",
+    },
+    {
+      title: "Others",
+      value: "Jenkins, Android SDK, XCode, AWS",
+    },
   ],
   experiences: [
     {
@@ -153,12 +152,6 @@ const profileData = {
       duration: "2011 - 2013",
       std: "Class XI-XII (PCM)",
       score: "89.80%",
-    },
-    {
-      alma: "Jwala Devi SVMIC, Prayagraj",
-      duration: "2009 - 2011",
-      std: "Class IX - X (PCM)",
-      score: "73.33%",
     },
   ],
   certifications: [

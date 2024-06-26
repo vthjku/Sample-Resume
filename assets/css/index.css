@@ -138,7 +138,7 @@ strong {
 .cat-list {
   padding-left: 2rem;
   margin: 0;
-  list-style-type: circle;
+  list-style-type: disc;
   text-align: justify;
 }
 
@@ -200,14 +200,14 @@ strong {
 /* Skills */
 .cat-skill-item {
   padding: 0.2rem 0 !important;
-  padding-left: 0.6rem !important;
+  line-height: 1.2rem;
 }
 
 .cat-skill-type {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: 600;
-  letter-spacing: 1px;
-  padding: 5px 0;
+  /* letter-spacing: 1px; */
+  /* padding: 5px 0; */
 }
 
 .force-inline {
@@ -297,6 +297,7 @@ strong {
   padding-bottom: 0.4rem !important;
   padding-left: 0.3rem !important;
   text-align: justify;
+  list-style: circle;
 }
 
 /* Media wuery for mobile view */

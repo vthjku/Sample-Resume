@@ -123,22 +123,23 @@ const setProjects = (projects) => {
 
 const setSkills = (skills) => {
   const skillList = document.querySelector("#skillList");
-  let body_klass = "cat-skill-body";
 
-  const catSkillItem = document.createElement("li");
-  catSkillItem.className = "cat-skill-item";
+  skills.forEach((skill) => {
+    const catSkillItem = document.createElement("li");
+    catSkillItem.className = "cat-skill-item";
 
-  const catSkillBody = document.createElement("div");
-  catSkillBody.className = body_klass;
+    const skillTitle = document.createElement("span");
+    skillTitle.className = "cat-skill-type";
+    skillTitle.innerText = skill.title + ": ";
 
-  skills.forEach((topic) => {
-    const skillGen = document.createElement("div");
-    skillGen.className = "skill-gen";
-    skillGen.innerHTML = topic;
-    catSkillBody.appendChild(skillGen);
+    const skillValue = document.createElement("span");
+    skillValue.className = "skill-value";
+    skillValue.innerText = skill.value;
+
+    catSkillItem.appendChild(skillTitle);
+    catSkillItem.appendChild(skillValue);
+    skillList.appendChild(catSkillItem);
   });
-
-  skillList.appendChild(catSkillBody);
 };
 
 const setExperience = (experiences) => {
@@ -172,7 +173,6 @@ const setExperience = (experiences) => {
 
       exper.details.forEach((dText) => {
         const detItem = document.createElement("li");
-        detItem.style.listStyle = "square";
         detItem.innerHTML = dText;
         expDetails.appendChild(detItem);
       });
