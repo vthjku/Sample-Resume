@@ -4,7 +4,8 @@ const profileData = {
   sub_title: "Senior TECHNICAL LEAD",
   logoURL: "assets/images/dp.jpg",
   about: {
-    intro: `Senior Software Engineer with 6 years of frontend development experience. Expert in building high-performance UI and seamless UX. Experienced in leading projects, migrating legacy systems, and creating reusable components. Skilled in A/B testing, cross-platform compatibility, and responsive design. Effective mentor and collaborator dedicated to continuous learning and innovation.`,
+    intro: `Seasoned professional with over 13 years in Unified Communication and Collaboration Products, adept at swiftly mastering and deploying new technologies. Proven track record in enhancing communication solutions and achieving impactful results.
+`,
     contact: {
       email: "imvpn22@gmail.com",
       phone: "+91-9151413108",
